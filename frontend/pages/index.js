@@ -5,7 +5,7 @@ export default function Index({ user }) {
     return (
         <>
             <Head user={user} />
-            <div className="fixed z-[1] bottom-0 left-0 top-[4.3rem] right-0 border-r border-gray-800 backdrop-blur h-full overflow-scroll">
+            <div className="fixed z-[1] bottom-0 left-0 top-[4.5rem] right-0 border-r border-gray-800 backdrop-blur h-full overflow-scroll">
                 <div className="w-full h-full">
                     <div className="w-full h-[30rem] relative animate__animated animate__bounceIn" style={{ background: "linear-gradient(rgba(48, 48, 48, 0.3) 10%, #000000 99%), url('/ai.png')" }}>
                         <div className="absolute w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">

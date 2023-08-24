@@ -9,7 +9,7 @@ export default function Head({ user }) {
                 <div className="flex justify-between">
                     <p className="text-2xl font-bold text-white"><span>Vexel</span></p>
                     <div>
-                        {user.auth !== true ? <button className="transition-all duration-500 text-white bg-blue-600 hover:shadow-md hover:shadow-blue-800 px-4 py-2 rounded-md">Login</button> : <div className="rounded-full p-4 border-2 border-gray-800 animate__animated animate__lightSpeedInRight" style={{ background: `url('https://cdn.discordapp.com/avatars/${user.user.id}/${user.user.avatar}.png')`, backgroundSize: "cover" }}></div>}
+                        {user.auth !== true ? <button className="transition-all duration-500 text-white bg-blue-600 hover:shadow-md hover:shadow-blue-800 px-4 py-2 rounded-md" onClick={() => location.href = "https://vexelapi.discordz.net/auth/discord"}>Login</button> : <div className="rounded-full p-4 border-2 border-gray-800 animate__animated animate__lightSpeedInRight" style={{ background: `url('https://cdn.discordapp.com/avatars/${user.user.id}/${user.user.avatar}.png')`, backgroundSize: "cover" }}></div>}
                     </div>
                 </div>
             </div>

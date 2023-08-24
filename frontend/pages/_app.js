@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
 
   async function getUser() {
     try {
-      const response = await axios.get('http://localhost:3001/profile', {
+      const response = await axios.get('https://vexelapi.discordz.net/profile', {
         withCredentials: true
       });
       setUser(response.data.auth == true ? response.data : false);

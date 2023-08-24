@@ -143,3 +143,11 @@ app.get('/logout', (req, res) => {
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
+
+process.on('unhandledRejection', (err) => {
+    return console.error(err);
+})
+
+process.on('uncaughtException', (err) => {
+    return console.error(err);
+})
