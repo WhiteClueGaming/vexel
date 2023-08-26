@@ -138,6 +138,7 @@ export default function Body({ user }) {
                                 }
                                 )}
                             </div>
+<br/><br/><br/>
                             <div className={"absolute z-[100] bottom-[3.5rem] left-0 right-0 p-4 flex flex-wrap w-full" + (disabled ? " hidden" : "")}><div className="w-full h-full relative"><input value={input} onChange={handleInput} onKeyDown={handleKeyPress} className="w-full focus:outline-none bg-transparent border-[2px] border-gray-800 rounded-[50px] backdrop-blur p-4 text-white" placeholder="Ask anything." disabled={disabled} /><button className="bg-gray-800 dark:text-white rounded-[20px] absolute right-[0.5rem] p-4 pt-2 pb-2 top-[0.5rem]" onClick={msg}>Send</button></div></div>
                         </div>
                     </>

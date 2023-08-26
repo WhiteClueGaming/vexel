@@ -1,0 +1,398 @@
+[
+  {
+    "kill_retry_time": 100,
+    "windowsHide": true,
+    "username": "container",
+    "treekill": true,
+    "automation": true,
+    "pmx": true,
+    "instance_var": "NODE_APP_INSTANCE",
+    "watch": false,
+    "autorestart": true,
+    "vizion": true,
+    "merge_logs": true,
+    "env": {
+      "HOSTNAME": "a8f6646e-c04a-42a9-8f0f-92ca57d56b9c",
+      "JAVA_HOME": "/usr/lib/jvm/jdk-17/",
+      "STARTUP": "{{STARTUP_CMD}}",
+      "PWD": "/home/container/frontend",
+      "TZ": "Etc/UTC",
+      "STARTUP_CMD": "bash",
+      "P_SERVER_LOCATION": "US",
+      "HOME": "/home/container",
+      "P_SERVER_ALLOCATION_LIMIT": "0.000000",
+      "LANG": "en_US.UTF-8",
+      "SERVER_IP": "45.8.201.205",
+      "GOROOT": "/usr/local/go",
+      "P_SERVER_UUID": "a8f6646e-c04a-42a9-8f0f-92ca57d56b9c",
+      "TERM": "xterm",
+      "USER": "container",
+      "SHLVL": "2",
+      "LC_ALL": "en_US.UTF-8",
+      "SERVER_PORT": "1508",
+      "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/jvm/jdk-17//bin:/usr/local/go/bin",
+      "SERVER_MEMORY": "0",
+      "OLDPWD": "/home/container",
+      "_": "/usr/bin/pm2",
+      "PM2_USAGE": "CLI",
+      "PM2_INTERACTOR_PROCESSING": "true",
+      "PM2_HOME": "/home/container/.pm2",
+      "f": {},
+      "unique_id": "1ea89cd6-d5e1-4d18-9c05-eafa6a881619"
+    },
+    "args": [
+      "start"
+    ],
+    "namespace": "default",
+    "filter_env": [],
+    "name": "f",
+    "node_args": [],
+    "pm_exec_path": "/usr/bin/npm",
+    "pm_cwd": "/home/container/frontend",
+    "exec_interpreter": "node",
+    "exec_mode": "fork_mode",
+    "pm_out_log_path": "/home/container/.pm2/logs/f-out.log",
+    "pm_err_log_path": "/home/container/.pm2/logs/f-error.log",
+    "pm_pid_path": "/home/container/.pm2/pids/f-0.pid",
+    "km_link": false,
+    "vizion_running": false,
+    "NODE_APP_INSTANCE": 0,
+    "HOSTNAME": "a8f6646e-c04a-42a9-8f0f-92ca57d56b9c",
+    "JAVA_HOME": "/usr/lib/jvm/jdk-17/",
+    "STARTUP": "{{STARTUP_CMD}}",
+    "PWD": "/home/container/frontend",
+    "TZ": "Etc/UTC",
+    "STARTUP_CMD": "bash",
+    "P_SERVER_LOCATION": "US",
+    "HOME": "/home/container",
+    "P_SERVER_ALLOCATION_LIMIT": "0.000000",
+    "LANG": "en_US.UTF-8",
+    "SERVER_IP": "45.8.201.205",
+    "GOROOT": "/usr/local/go",
+    "P_SERVER_UUID": "a8f6646e-c04a-42a9-8f0f-92ca57d56b9c",
+    "TERM": "xterm",
+    "USER": "container",
+    "SHLVL": "2",
+    "LC_ALL": "en_US.UTF-8",
+    "SERVER_PORT": "1508",
+    "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/jvm/jdk-17//bin:/usr/local/go/bin",
+    "SERVER_MEMORY": "0",
+    "OLDPWD": "/home/container",
+    "_": "/usr/bin/pm2",
+    "PM2_USAGE": "CLI",
+    "PM2_INTERACTOR_PROCESSING": "true",
+    "PM2_HOME": "/home/container/.pm2",
+    "unique_id": "1ea89cd6-d5e1-4d18-9c05-eafa6a881619",
+    "status": "online",
+    "pm_uptime": 1692888713939,
+    "axm_actions": [
+      {
+        "action_name": "km:heapdump",
+        "action_type": "internal",
+        "arity": 2
+      },
+      {
+        "action_name": "km:cpu:profiling:start",
+        "action_type": "internal",
+        "arity": 2
+      },
+      {
+        "action_name": "km:cpu:profiling:stop",
+        "action_type": "internal",
+        "arity": 1
+      },
+      {
+        "action_name": "km:heap:sampling:start",
+        "action_type": "internal",
+        "arity": 2
+      },
+      {
+        "action_name": "km:heap:sampling:stop",
+        "action_type": "internal",
+        "arity": 1
+      }
+    ],
+    "axm_monitor": {
+      "Used Heap Size": {
+        "value": "16.61",
+        "type": "internal/v8/heap/used",
+        "unit": "MiB",
+        "historic": true
+      },
+      "Heap Usage": {
+        "value": 85.88,
+        "type": "internal/v8/heap/usage",
+        "unit": "%",
+        "historic": true
+      },
+      "Heap Size": {
+        "value": "19.34",
+        "type": "internal/v8/heap/total",
+        "unit": "MiB",
+        "historic": true
+      },
+      "Event Loop Latency p95": {
+        "value": "1.05",
+        "type": "internal/libuv/latency/p95",
+        "unit": "ms",
+        "historic": true
+      },
+      "Event Loop Latency": {
+        "value": "0.14",
+        "type": "internal/libuv/latency/p50",
+        "unit": "ms",
+        "historic": true
+      },
+      "Active handles": {
+        "value": 5,
+        "type": "internal/libuv/handles",
+        "historic": true
+      },
+      "Active requests": {
+        "value": 0,
+        "type": "internal/libuv/requests",
+        "historic": true
+      }
+    },
+    "axm_options": {
+      "error": true,
+      "heapdump": true,
+      "feature.profiler.heapsnapshot": false,
+      "feature.profiler.heapsampling": true,
+      "feature.profiler.cpu_js": true,
+      "latency": true,
+      "catchExceptions": true,
+      "profiling": true,
+      "metrics": {
+        "http": true,
+        "runtime": true,
+        "eventLoop": true,
+        "network": false,
+        "v8": true
+      },
+      "standalone": false,
+      "tracing": {
+        "outbound": false,
+        "enabled": false
+      },
+      "module_conf": {},
+      "apm": {
+        "version": "5.0.0",
+        "type": "node"
+      },
+      "module_name": "f",
+      "module_version": "5.2.2"
+    },
+    "axm_dynamic": {},
+    "created_at": 1692888713939,
+    "restart_time": 0,
+    "unstable_restarts": 0,
+    "version": "N/A",
+    "versioning": null,
+    "node_version": "18.14.2"
+  },
+  {
+    "kill_retry_time": 100,
+    "windowsHide": true,
+    "username": "container",
+    "treekill": true,
+    "automation": true,
+    "pmx": true,
+    "instance_var": "NODE_APP_INSTANCE",
+    "watch": false,
+    "autorestart": true,
+    "vizion": true,
+    "merge_logs": true,
+    "env": {
+      "HOSTNAME": "a8f6646e-c04a-42a9-8f0f-92ca57d56b9c",
+      "JAVA_HOME": "/usr/lib/jvm/jdk-17/",
+      "STARTUP": "{{STARTUP_CMD}}",
+      "PWD": "/home/container/backend",
+      "TZ": "Etc/UTC",
+      "STARTUP_CMD": "bash",
+      "P_SERVER_LOCATION": "US",
+      "HOME": "/home/container",
+      "P_SERVER_ALLOCATION_LIMIT": "0.000000",
+      "LANG": "en_US.UTF-8",
+      "SERVER_IP": "45.8.201.205",
+      "GOROOT": "/usr/local/go",
+      "P_SERVER_UUID": "a8f6646e-c04a-42a9-8f0f-92ca57d56b9c",
+      "TERM": "xterm",
+      "USER": "container",
+      "SHLVL": "2",
+      "LC_ALL": "en_US.UTF-8",
+      "SERVER_PORT": "1508",
+      "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/jvm/jdk-17//bin:/usr/local/go/bin",
+      "SERVER_MEMORY": "0",
+      "OLDPWD": "/home/container",
+      "_": "/usr/bin/pm2",
+      "PM2_USAGE": "CLI",
+      "PM2_HOME": "/home/container/.pm2",
+      "b": {},
+      "unique_id": "05b87ce4-63ef-4b95-8839-728a2e03e208"
+    },
+    "namespace": "default",
+    "filter_env": [],
+    "name": "b",
+    "node_args": [],
+    "pm_exec_path": "/home/container/backend/main.js",
+    "pm_cwd": "/home/container/backend",
+    "exec_interpreter": "node",
+    "exec_mode": "fork_mode",
+    "pm_out_log_path": "/home/container/.pm2/logs/b-out.log",
+    "pm_err_log_path": "/home/container/.pm2/logs/b-error.log",
+    "pm_pid_path": "/home/container/.pm2/pids/b-1.pid",
+    "km_link": false,
+    "vizion_running": false,
+    "NODE_APP_INSTANCE": 0,
+    "HOSTNAME": "a8f6646e-c04a-42a9-8f0f-92ca57d56b9c",
+    "JAVA_HOME": "/usr/lib/jvm/jdk-17/",
+    "STARTUP": "{{STARTUP_CMD}}",
+    "PWD": "/home/container/backend",
+    "TZ": "Etc/UTC",
+    "STARTUP_CMD": "bash",
+    "P_SERVER_LOCATION": "US",
+    "HOME": "/home/container",
+    "P_SERVER_ALLOCATION_LIMIT": "0.000000",
+    "LANG": "en_US.UTF-8",
+    "SERVER_IP": "45.8.201.205",
+    "GOROOT": "/usr/local/go",
+    "P_SERVER_UUID": "a8f6646e-c04a-42a9-8f0f-92ca57d56b9c",
+    "TERM": "xterm",
+    "USER": "container",
+    "SHLVL": "2",
+    "LC_ALL": "en_US.UTF-8",
+    "SERVER_PORT": "1508",
+    "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/jvm/jdk-17//bin:/usr/local/go/bin",
+    "SERVER_MEMORY": "0",
+    "OLDPWD": "/home/container",
+    "_": "/usr/bin/pm2",
+    "PM2_USAGE": "CLI",
+    "PM2_HOME": "/home/container/.pm2",
+    "unique_id": "05b87ce4-63ef-4b95-8839-728a2e03e208",
+    "status": "online",
+    "pm_uptime": 1692888749971,
+    "axm_actions": [
+      {
+        "action_name": "km:heapdump",
+        "action_type": "internal",
+        "arity": 2
+      },
+      {
+        "action_name": "km:cpu:profiling:start",
+        "action_type": "internal",
+        "arity": 2
+      },
+      {
+        "action_name": "km:cpu:profiling:stop",
+        "action_type": "internal",
+        "arity": 1
+      },
+      {
+        "action_name": "km:heap:sampling:start",
+        "action_type": "internal",
+        "arity": 2
+      },
+      {
+        "action_name": "km:heap:sampling:stop",
+        "action_type": "internal",
+        "arity": 1
+      }
+    ],
+    "axm_monitor": {
+      "Used Heap Size": {
+        "value": "11.55",
+        "type": "internal/v8/heap/used",
+        "unit": "MiB",
+        "historic": true
+      },
+      "Heap Usage": {
+        "value": 88.11,
+        "type": "internal/v8/heap/usage",
+        "unit": "%",
+        "historic": true
+      },
+      "Heap Size": {
+        "value": "13.11",
+        "type": "internal/v8/heap/total",
+        "unit": "MiB",
+        "historic": true
+      },
+      "Event Loop Latency p95": {
+        "value": "2.54",
+        "type": "internal/libuv/latency/p95",
+        "unit": "ms",
+        "historic": true
+      },
+      "Event Loop Latency": {
+        "value": "0.23",
+        "type": "internal/libuv/latency/p50",
+        "unit": "ms",
+        "historic": true
+      },
+      "Active handles": {
+        "value": 4,
+        "type": "internal/libuv/handles",
+        "historic": true
+      },
+      "Active requests": {
+        "value": 0,
+        "type": "internal/libuv/requests",
+        "historic": true
+      }
+    },
+    "axm_options": {
+      "error": true,
+      "heapdump": true,
+      "feature.profiler.heapsnapshot": false,
+      "feature.profiler.heapsampling": true,
+      "feature.profiler.cpu_js": true,
+      "latency": true,
+      "catchExceptions": true,
+      "profiling": true,
+      "metrics": {
+        "http": true,
+        "runtime": true,
+        "eventLoop": true,
+        "network": false,
+        "v8": true
+      },
+      "standalone": false,
+      "tracing": {
+        "outbound": false,
+        "enabled": false
+      },
+      "module_conf": {},
+      "apm": {
+        "version": "5.0.0",
+        "type": "node"
+      },
+      "module_name": "b",
+      "module_version": "5.2.2"
+    },
+    "axm_dynamic": {},
+    "created_at": 1692888749971,
+    "restart_time": 0,
+    "unstable_restarts": 0,
+    "version": "1.0.0",
+    "versioning": {
+      "type": "git",
+      "url": "https://WhiteClueGaming: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@github.com/WhiteClueGaming/vexel",
+      "revision": "7103ab7a07f9ea778ebb72fde4839c4dd151f6a3",
+      "comment": "1\n",
+      "unstaged": true,
+      "branch": "master",
+      "remotes": [
+        "origin"
+      ],
+      "remote": "origin",
+      "branch_exists_on_remote": true,
+      "ahead": false,
+      "next_rev": null,
+      "prev_rev": null,
+      "update_time": "2023-08-24T14:52:30.021Z",
+      "repo_path": "/home/container"
+    },
+    "node_version": "18.14.2"
+  }
+]

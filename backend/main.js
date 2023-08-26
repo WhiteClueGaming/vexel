@@ -6,7 +6,7 @@ const session = require('express-session');
 const cors = require('cors');
 
 const app = express();
-const port = 3001;
+const port = 1509;
 
 // Initialize the database
 const db = new QuickDB();
@@ -22,7 +22,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.use(cors({
-    origin: ['http://localhost:3000'],
+    origin: ['https://vexel.discordz.net'],
     credentials: true,
 }));
 
@@ -32,7 +32,7 @@ passport.use(
         {
             clientID: '914010773842452601',
             clientSecret: '2nHV2FnuH7jSTV6ghshranvhyFbxCtra',
-            callbackURL: 'http://localhost:3001/auth/discord/callback',
+            callbackURL: 'https://vexelapi.discordz.net/auth/discord/callback',
         },
         (accessToken, refreshToken, profile, done) => {
             return done(null, profile);
@@ -67,7 +67,7 @@ app.get(
 );
 
 app.get('/auth/discord/callback',
-    passport.authenticate('discord', { failureRedirect: '/' }),
+    passport.authenticate('discord', { failureRedirect: 'https://vexel.discordz.net' }),
     async (req, res) => {
         if (req.user) {
             let u = await db.get(req.user.id);
@@ -77,7 +77,7 @@ app.get('/auth/discord/callback',
                 username: req.user.username,
                 avatar: req.user.avatar
             })
-            return res.redirect("http://localhost:3000")
+            return res.redirect("https://vexel.discordz.net")
         }
     }
 );

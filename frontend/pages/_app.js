@@ -39,6 +39,7 @@ export default function App({ Component, pageProps }) {
       </script>
       <div className='mt-[6rem] w-full h-full animate__animated animate__fadeIn'>
         <Component {...pageProps} user={user} />
+            <br/><br/><br/>
       </div>
       <Toaster />
 

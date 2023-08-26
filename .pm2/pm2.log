@@ -1,0 +1,192 @@
+2023-08-24T14:51:53: PM2 log: ===============================================================================
+2023-08-24T14:51:53: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-08-24T14:51:53: PM2 log: Time                 : Thu Aug 24 2023 14:51:53 GMT+0000 (Coordinated Universal Time)
+2023-08-24T14:51:53: PM2 log: PM2 version          : 5.2.2
+2023-08-24T14:51:53: PM2 log: Node.js version      : 18.14.2
+2023-08-24T14:51:53: PM2 log: Current arch         : x64
+2023-08-24T14:51:53: PM2 log: PM2 home             : /home/container/.pm2
+2023-08-24T14:51:53: PM2 log: PM2 PID file         : /home/container/.pm2/pm2.pid
+2023-08-24T14:51:53: PM2 log: RPC socket file      : /home/container/.pm2/rpc.sock
+2023-08-24T14:51:53: PM2 log: BUS socket file      : /home/container/.pm2/pub.sock
+2023-08-24T14:51:53: PM2 log: Application log path : /home/container/.pm2/logs
+2023-08-24T14:51:53: PM2 log: Worker Interval      : 30000
+2023-08-24T14:51:53: PM2 log: Process dump file    : /home/container/.pm2/dump.pm2
+2023-08-24T14:51:53: PM2 log: Concurrent actions   : 2
+2023-08-24T14:51:53: PM2 log: SIGTERM timeout      : 1600
+2023-08-24T14:51:53: PM2 log: ===============================================================================
+2023-08-24T14:51:53: PM2 log: App [f:0] starting in -fork mode-
+2023-08-24T14:51:53: PM2 log: App [f:0] online
+2023-08-24T14:52:29: PM2 log: App [b:1] starting in -fork mode-
+2023-08-24T14:52:29: PM2 log: App [b:1] online
+2023-08-24T14:54:25: PM2 log: Stopping app:b id:1
+2023-08-24T14:54:25: PM2 log: App [b:1] exited with code [0] via signal [SIGINT]
+2023-08-24T14:54:25: PM2 log: pid=372 msg=process killed
+2023-08-24T14:54:25: PM2 log: App [b:1] starting in -fork mode-
+2023-08-24T14:54:25: PM2 log: App [b:1] online
+2023-08-24T15:02:05: PM2 log: ===============================================================================
+2023-08-24T15:02:05: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-08-24T15:02:05: PM2 log: Time                 : Thu Aug 24 2023 15:02:05 GMT+0000 (Coordinated Universal Time)
+2023-08-24T15:02:05: PM2 log: PM2 version          : 5.2.2
+2023-08-24T15:02:05: PM2 log: Node.js version      : 18.14.2
+2023-08-24T15:02:05: PM2 log: Current arch         : x64
+2023-08-24T15:02:05: PM2 log: PM2 home             : /home/container/.pm2
+2023-08-24T15:02:05: PM2 log: PM2 PID file         : /home/container/.pm2/pm2.pid
+2023-08-24T15:02:05: PM2 log: RPC socket file      : /home/container/.pm2/rpc.sock
+2023-08-24T15:02:05: PM2 log: BUS socket file      : /home/container/.pm2/pub.sock
+2023-08-24T15:02:05: PM2 log: Application log path : /home/container/.pm2/logs
+2023-08-24T15:02:05: PM2 log: Worker Interval      : 30000
+2023-08-24T15:02:05: PM2 log: Process dump file    : /home/container/.pm2/dump.pm2
+2023-08-24T15:02:05: PM2 log: Concurrent actions   : 2
+2023-08-24T15:02:05: PM2 log: SIGTERM timeout      : 1600
+2023-08-24T15:02:05: PM2 log: ===============================================================================
+2023-08-24T15:03:25: PM2 log: App [f:0] starting in -fork mode-
+2023-08-24T15:03:25: PM2 log: App [b:1] starting in -fork mode-
+2023-08-24T15:03:25: PM2 log: App [f:0] online
+2023-08-24T15:03:25: PM2 log: App [b:1] online
+2023-08-24T15:04:51: PM2 log: ===============================================================================
+2023-08-24T15:04:51: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-08-24T15:04:51: PM2 log: Time                 : Thu Aug 24 2023 15:04:51 GMT+0000 (Coordinated Universal Time)
+2023-08-24T15:04:51: PM2 log: PM2 version          : 5.2.2
+2023-08-24T15:04:51: PM2 log: Node.js version      : 18.14.2
+2023-08-24T15:04:51: PM2 log: Current arch         : x64
+2023-08-24T15:04:51: PM2 log: PM2 home             : /home/container/.pm2
+2023-08-24T15:04:51: PM2 log: PM2 PID file         : /home/container/.pm2/pm2.pid
+2023-08-24T15:04:51: PM2 log: RPC socket file      : /home/container/.pm2/rpc.sock
+2023-08-24T15:04:51: PM2 log: BUS socket file      : /home/container/.pm2/pub.sock
+2023-08-24T15:04:51: PM2 log: Application log path : /home/container/.pm2/logs
+2023-08-24T15:04:51: PM2 log: Worker Interval      : 30000
+2023-08-24T15:04:51: PM2 log: Process dump file    : /home/container/.pm2/dump.pm2
+2023-08-24T15:04:51: PM2 log: Concurrent actions   : 2
+2023-08-24T15:04:51: PM2 log: SIGTERM timeout      : 1600
+2023-08-24T15:04:51: PM2 log: ===============================================================================
+2023-08-24T15:04:51: PM2 log: App [f:0] starting in -fork mode-
+2023-08-24T15:04:51: PM2 log: App [b:1] starting in -fork mode-
+2023-08-24T15:04:51: PM2 log: App [f:0] online
+2023-08-24T15:04:51: PM2 log: App [b:1] online
+2023-08-24T15:04:57: PM2 log: Stopping app:f id:0
+2023-08-24T15:04:57: PM2 log: App [f:0] exited with code [0] via signal [SIGINT]
+2023-08-24T15:04:57: PM2 log: pid=101 msg=process killed
+2023-08-24T15:04:57: PM2 log: App [f:0] starting in -fork mode-
+2023-08-24T15:04:57: PM2 log: App [f:0] online
+2023-08-24T15:04:57: PM2 log: Stopping app:b id:1
+2023-08-24T15:04:57: PM2 log: App [b:1] exited with code [0] via signal [SIGINT]
+2023-08-24T15:04:58: PM2 log: pid=102 msg=process killed
+2023-08-24T15:04:58: PM2 log: App [b:1] starting in -fork mode-
+2023-08-24T15:04:58: PM2 log: App [b:1] online
+2023-08-24T15:06:18: PM2 log: ===============================================================================
+2023-08-24T15:06:18: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-08-24T15:06:18: PM2 log: Time                 : Thu Aug 24 2023 15:06:18 GMT+0000 (Coordinated Universal Time)
+2023-08-24T15:06:18: PM2 log: PM2 version          : 5.2.2
+2023-08-24T15:06:18: PM2 log: Node.js version      : 18.14.2
+2023-08-24T15:06:18: PM2 log: Current arch         : x64
+2023-08-24T15:06:18: PM2 log: PM2 home             : /home/container/.pm2
+2023-08-24T15:06:18: PM2 log: PM2 PID file         : /home/container/.pm2/pm2.pid
+2023-08-24T15:06:18: PM2 log: RPC socket file      : /home/container/.pm2/rpc.sock
+2023-08-24T15:06:18: PM2 log: BUS socket file      : /home/container/.pm2/pub.sock
+2023-08-24T15:06:18: PM2 log: Application log path : /home/container/.pm2/logs
+2023-08-24T15:06:18: PM2 log: Worker Interval      : 30000
+2023-08-24T15:06:18: PM2 log: Process dump file    : /home/container/.pm2/dump.pm2
+2023-08-24T15:06:18: PM2 log: Concurrent actions   : 2
+2023-08-24T15:06:18: PM2 log: SIGTERM timeout      : 1600
+2023-08-24T15:06:18: PM2 log: ===============================================================================
+2023-08-24T15:06:18: PM2 log: App [f:0] starting in -fork mode-
+2023-08-24T15:06:18: PM2 log: App [b:1] starting in -fork mode-
+2023-08-24T15:06:18: PM2 log: App [f:0] online
+2023-08-24T15:06:18: PM2 log: App [b:1] online
+2023-08-24T15:08:41: PM2 log: ===============================================================================
+2023-08-24T15:08:41: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-08-24T15:08:41: PM2 log: Time                 : Thu Aug 24 2023 15:08:41 GMT+0000 (Coordinated Universal Time)
+2023-08-24T15:08:41: PM2 log: PM2 version          : 5.2.2
+2023-08-24T15:08:41: PM2 log: Node.js version      : 18.14.2
+2023-08-24T15:08:41: PM2 log: Current arch         : x64
+2023-08-24T15:08:41: PM2 log: PM2 home             : /home/container/.pm2
+2023-08-24T15:08:41: PM2 log: PM2 PID file         : /home/container/.pm2/pm2.pid
+2023-08-24T15:08:41: PM2 log: RPC socket file      : /home/container/.pm2/rpc.sock
+2023-08-24T15:08:41: PM2 log: BUS socket file      : /home/container/.pm2/pub.sock
+2023-08-24T15:08:41: PM2 log: Application log path : /home/container/.pm2/logs
+2023-08-24T15:08:41: PM2 log: Worker Interval      : 30000
+2023-08-24T15:08:41: PM2 log: Process dump file    : /home/container/.pm2/dump.pm2
+2023-08-24T15:08:41: PM2 log: Concurrent actions   : 2
+2023-08-24T15:08:41: PM2 log: SIGTERM timeout      : 1600
+2023-08-24T15:08:41: PM2 log: ===============================================================================
+2023-08-24T15:08:41: PM2 log: App [f:0] starting in -fork mode-
+2023-08-24T15:08:41: PM2 log: App [b:1] starting in -fork mode-
+2023-08-24T15:08:41: PM2 log: App [f:0] online
+2023-08-24T15:08:41: PM2 log: App [b:1] online
+2023-08-24T15:17:07: PM2 log: Stopping app:f id:0
+2023-08-24T15:17:07: PM2 log: App [f:0] exited with code [0] via signal [SIGINT]
+2023-08-24T15:17:07: PM2 log: pid=101 msg=process killed
+2023-08-24T15:17:07: PM2 log: App [f:0] starting in -fork mode-
+2023-08-24T15:17:07: PM2 log: App [f:0] online
+2023-08-24T15:17:07: PM2 log: Stopping app:b id:1
+2023-08-24T15:17:07: PM2 log: App [b:1] exited with code [0] via signal [SIGINT]
+2023-08-24T15:17:07: PM2 log: pid=102 msg=process killed
+2023-08-24T15:17:07: PM2 log: App [b:1] starting in -fork mode-
+2023-08-24T15:17:07: PM2 log: App [b:1] online
+2023-08-24T15:18:07: PM2 log: Stopping app:f id:0
+2023-08-24T15:18:07: PM2 log: App [f:0] exited with code [0] via signal [SIGINT]
+2023-08-24T15:18:07: PM2 log: pid=191 msg=process killed
+2023-08-24T15:18:07: PM2 log: App [f:0] starting in -fork mode-
+2023-08-24T15:18:07: PM2 log: App [f:0] online
+2023-08-24T15:18:07: PM2 log: Stopping app:b id:1
+2023-08-24T15:18:07: PM2 log: App [b:1] exited with code [0] via signal [SIGINT]
+2023-08-24T15:18:08: PM2 log: pid=203 msg=process killed
+2023-08-24T15:18:08: PM2 log: App [b:1] starting in -fork mode-
+2023-08-24T15:18:08: PM2 log: App [b:1] online
+2023-08-24T15:19:23: PM2 log: ===============================================================================
+2023-08-24T15:19:23: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-08-24T15:19:23: PM2 log: Time                 : Thu Aug 24 2023 15:19:23 GMT+0000 (Coordinated Universal Time)
+2023-08-24T15:19:23: PM2 log: PM2 version          : 5.2.2
+2023-08-24T15:19:23: PM2 log: Node.js version      : 18.14.2
+2023-08-24T15:19:23: PM2 log: Current arch         : x64
+2023-08-24T15:19:23: PM2 log: PM2 home             : /home/container/.pm2
+2023-08-24T15:19:23: PM2 log: PM2 PID file         : /home/container/.pm2/pm2.pid
+2023-08-24T15:19:23: PM2 log: RPC socket file      : /home/container/.pm2/rpc.sock
+2023-08-24T15:19:23: PM2 log: BUS socket file      : /home/container/.pm2/pub.sock
+2023-08-24T15:19:23: PM2 log: Application log path : /home/container/.pm2/logs
+2023-08-24T15:19:23: PM2 log: Worker Interval      : 30000
+2023-08-24T15:19:23: PM2 log: Process dump file    : /home/container/.pm2/dump.pm2
+2023-08-24T15:19:23: PM2 log: Concurrent actions   : 2
+2023-08-24T15:19:23: PM2 log: SIGTERM timeout      : 1600
+2023-08-24T15:19:23: PM2 log: ===============================================================================
+2023-08-24T15:19:23: PM2 log: App [f:0] starting in -fork mode-
+2023-08-24T15:19:23: PM2 log: App [b:1] starting in -fork mode-
+2023-08-24T15:19:23: PM2 log: App [f:0] online
+2023-08-24T15:19:23: PM2 log: App [b:1] online
+2023-08-24T15:27:04: PM2 log: Stopping app:f id:0
+2023-08-24T15:27:04: PM2 log: App [f:0] exited with code [0] via signal [SIGINT]
+2023-08-24T15:27:04: PM2 log: pid=31 msg=process killed
+2023-08-24T15:27:04: PM2 log: App [f:0] starting in -fork mode-
+2023-08-24T15:27:04: PM2 log: App [f:0] online
+2023-08-24T15:27:04: PM2 log: Stopping app:b id:1
+2023-08-24T15:27:04: PM2 log: App [b:1] exited with code [0] via signal [SIGINT]
+2023-08-24T15:27:04: PM2 log: pid=32 msg=process killed
+2023-08-24T15:27:04: PM2 log: App [b:1] starting in -fork mode-
+2023-08-24T15:27:04: PM2 log: App [b:1] online
+2023-08-24T15:31:37: PM2 log: ===============================================================================
+2023-08-24T15:31:37: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-08-24T15:31:37: PM2 log: Time                 : Thu Aug 24 2023 15:31:37 GMT+0000 (Coordinated Universal Time)
+2023-08-24T15:31:37: PM2 log: PM2 version          : 5.2.2
+2023-08-24T15:31:37: PM2 log: Node.js version      : 18.14.2
+2023-08-24T15:31:37: PM2 log: Current arch         : x64
+2023-08-24T15:31:37: PM2 log: PM2 home             : /home/container/.pm2
+2023-08-24T15:31:37: PM2 log: PM2 PID file         : /home/container/.pm2/pm2.pid
+2023-08-24T15:31:37: PM2 log: RPC socket file      : /home/container/.pm2/rpc.sock
+2023-08-24T15:31:37: PM2 log: BUS socket file      : /home/container/.pm2/pub.sock
+2023-08-24T15:31:37: PM2 log: Application log path : /home/container/.pm2/logs
+2023-08-24T15:31:37: PM2 log: Worker Interval      : 30000
+2023-08-24T15:31:37: PM2 log: Process dump file    : /home/container/.pm2/dump.pm2
+2023-08-24T15:31:37: PM2 log: Concurrent actions   : 2
+2023-08-24T15:31:37: PM2 log: SIGTERM timeout      : 1600
+2023-08-24T15:31:37: PM2 log: ===============================================================================
+2023-08-24T15:31:56: PM2 log: App [f:0] starting in -fork mode-
+2023-08-24T15:31:56: PM2 log: App [b:1] starting in -fork mode-
+2023-08-24T15:31:56: PM2 log: App [f:0] online
+2023-08-24T15:31:56: PM2 log: App [b:1] online
+2023-08-25T15:29:44: PM2 log: Stopping app:f id:0
+2023-08-25T15:29:44: PM2 log: App [f:0] exited with code [0] via signal [SIGINT]
+2023-08-25T15:29:44: PM2 log: pid=109 msg=process killed
+2023-08-25T15:29:44: PM2 log: App [f:0] starting in -fork mode-
+2023-08-25T15:29:44: PM2 log: App [f:0] online
+2023-08-25T15:31:38: PM2 log: [PM2] This PM2 is not UP TO DATE
+2023-08-25T15:31:38: PM2 log: [PM2] Upgrade to version 5.3.0
